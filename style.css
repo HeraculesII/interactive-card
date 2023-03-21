@@ -1,0 +1,421 @@
+* {box-sizing: border-box;}
+
+
+/* ინფუთის ნომრების სქროლის დასამალი კოდი */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-mobile {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.back {
+  width: 286px;
+  height: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-left: 60px;
+}
+
+.front {
+  width: 286px;
+  height: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  
+}
+
+.front-card {
+  margin-top: -68px;
+  margin-left: -60px;
+}
+
+.main-cards {
+  margin-top: -200px;
+}
+
+.back-numbers {
+  color: #ffffff;
+  position: absolute;
+  margin-left: 255px;
+  font-size: 9px;
+  margin-top: -2px;
+  z-index: 5;
+}
+
+.logo {
+  position: relative;
+  margin-top: -140px;
+  margin-bottom: 120px;
+  width: 54px;
+  margin-left: 20px;
+}
+
+.front-numbers {
+  color: #ffffff;
+  margin-top: -75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: 2.2px;
+}
+
+.user-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  padding-left: 20px;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  margin-top: 17px;
+  color: #ffffff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 327px;
+  
+}
+
+
+
+.card-holder {
+  font-size: 12px;
+  color: #21092F;
+  letter-spacing: 2px;
+}
+
+input {
+
+  border: 1px solid #DFDEE0;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 18px;
+
+}
+
+
+
+input:focus {
+  border-image: linear-gradient(to right, #6348FE, #610595);
+
+}
+
+.name-input {
+  margin-top: 9px;
+  width: 327px;
+  height: 45px;
+}
+
+::placeholder{
+  color: #21092F;
+  opacity: 25%;
+  font-size: 18px;
+}
+
+.card-holder-input {
+  margin-bottom: 20px;
+}
+
+
+/*  */
+/*  */
+/*  */
+.mm-yy-cvc {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+.mm {
+  margin-top: 9px;
+  width: 72px;
+  height: 45px;
+  font-family: 'Space Grotesk';
+}
+
+.yy {
+  margin-top: 9px;
+  width: 72px;
+  height: 45px;
+  font-family: 'Space Grotesk';
+}
+
+.cvc {
+  margin-top: 9px;
+  width: 164px;
+  height: 45px;
+  font-family: 'Space Grotesk';
+}
+
+#wrong-letter {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff5050;
+  display: none;
+}
+
+#wrong-numbers {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff5050;
+  display: none;
+}
+
+#cant-blank {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff5050;
+  display: none;
+}
+
+#cant-blank1 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff5050;
+  display: none;
+}
+
+#cant-blank2 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff5050;
+  display: none;
+}
+
+.confirm {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Space Grotesk';
+  font-size: 18px;
+}
+
+.continue-div:hover {
+  opacity: 0.90;
+  cursor: pointer;
+}
+
+.continue {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Space Grotesk';
+  font-size: 18px;
+}
+.continue-div {
+  width: 327px;
+  height: 53px;
+  background-color: #21092F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 45px;
+}
+
+.confirm-div:hover {
+  opacity: 0.90;
+  cursor: pointer;
+}
+
+.confirm-div {
+
+  width: 327px;
+  height: 53px;
+  background-color: #21092F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 45px;
+}
+
+
+
+
+/*  */
+footer {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.complete {
+  margin-top: 62px;
+}
+
+.thank {
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #21092F;
+
+}
+
+.card-detail {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #8F8694;
+  margin-bottom: 48px;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  header {
+    width: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .background-mobile {
+    width: 483px;
+    height: 1200px;
+    display: flex;
+    margin-left: -284px;
+  }
+
+  .front-card {
+    margin-left: -275px;
+    margin-top: -130px;
+  }
+
+  .front {
+    width: 447px;
+    height: 245px;
+  }
+
+  .logo {
+    width: 84px;
+    margin-top: -240px;
+    margin-bottom: 180px;
+    margin-left: 32px;
+  }
+
+  .front-numbers {
+    letter-spacing: 3.42px;
+    font-size: 28px;
+    margin-top: -114px;
+    margin-bottom: 25.5px;
+  }
+
+  .user-date {
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .back {
+    width: 447px;
+    height: 245px;
+    margin-bottom: -550px;
+    margin-left: -127px;
+  }
+  
+  section {
+    display: block;
+    margin-left: 127px;
+  }
+
+  .name-input {
+    width: 381px;
+  }
+
+  .mm-yy-cvc {
+    gap: 20px;
+  }
+
+  .mm {
+    width: 80px;
+  }
+
+  .yy {
+    width: 80px;
+  }
+  .cvc {
+    width: 182px;
+  }
+
+  .confirm-div {
+    width: 382px;
+  }
+
+  .continue-div {
+    width: 382px;
+  }
+
+  footer {
+    display: none;
+    margin-left: 127px;
+  }
+
+  .back-numbers {
+    margin-bottom: -550px;
+    font-size: 14px;
+    margin-right: 70px;
+  }
+
+
+
+}
